@@ -344,3 +344,6 @@
 [15:59:22] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [15:59:33] [Server thread/WARN] [FML]: Quark loaded a new chunk [6, -6] in dimension 0 (overworld) while populating chunk [5, -7], causing cascading worldgen lag.
 [15:59:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:05:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: PeruFreeFire2008 lost connection: Disconnected
+[16:05:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 left the game
+[16:05:17] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client PeruFreeFire2008

@@ -13108,3 +13108,21 @@ Caused by: com.google.gson.stream.MalformedJsonException: Invalid escape sequenc
 [16:01:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:01:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:02:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:03:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:04:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:04:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:05:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: PeruFreeFire2008 lost connection: Disconnected
+[16:05:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 left the game
+[16:05:17] [Server thread/DEBUG] [voicechat]: [voicechat] Removing state of PeruFreeFire2008
+[16:05:17] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client PeruFreeFire2008
+[16:05:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:06:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:07:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:07:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:08:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:09:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:10:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:10:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:11:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:12:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:13:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world

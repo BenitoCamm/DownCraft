@@ -1,937 +1,436 @@
-[18:05:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:05:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:05:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:05:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[18:05:31] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[18:05:31] [main/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
-[18:05:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.10.jar
-[18:05:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:05:31] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[18:05:31] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
-[18:05:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:05:31] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[18:05:31] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
-[18:05:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
-[18:05:31] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
-[18:05:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:05:31] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
-[18:05:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:05:31] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[18:05:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:05:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[18:05:32] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/DownCraft/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.10.jar Service=LaunchWrapper Env=SERVER
-[18:05:32] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
-[18:05:32] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[18:05:32] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[18:05:32] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
-[18:05:32] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[18:05:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:05:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:05:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:05:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[18:05:34] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@34cf5a97
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:05:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:05:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[18:05:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:05:35] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[18:05:35] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
-[18:05:35] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
-[18:05:35] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
-[18:05:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[18:05:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[18:05:36] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:36] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[18:05:36] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:36] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:36] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
-[18:05:36] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[18:05:36] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[18:05:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[18:05:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[18:05:36] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:36] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[18:05:36] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:36] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:36] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
-[18:05:36] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[18:05:36] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[18:05:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[18:05:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:37] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[18:05:37] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[18:05:37] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[18:05:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
-[18:05:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
-[18:05:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[18:05:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Located patch target node ARETURN
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
-[18:05:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
-[18:05:37] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:37] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:05:37] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:05:37] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[18:05:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[18:05:38] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:05:39] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Located patch target node ARETURN
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
-[18:05:39] [main/INFO] [Quark ASM]: Failed to locate the method!
-[18:05:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
-[18:05:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
-[18:05:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:39] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:40] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
-[18:05:40] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
-[18:05:40] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:40] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
-[18:05:40] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:41] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
-[18:05:41] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[18:05:41] [main/INFO] [Quark ASM]: Located Method, patching...
-[18:05:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:05:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:05:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:05:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[18:05:41] [main/INFO] [Quark ASM]: Patch result: true
-[18:05:42] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
-[18:05:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[18:05:42] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[18:05:42] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[18:05:42] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[18:05:42] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[18:05:42] [Server thread/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
-[18:05:43] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.10
-[18:05:43] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
-[18:05:43] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
-[18:05:44] [Server thread/INFO] [FML]: Forge Mod Loader has identified 41 mods to load
-[18:05:44] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[18:05:44] [Server thread/WARN] [FML]: Missing English translation for libraryex: assets/libraryex/lang/en_us.lang
-[18:05:44] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
-[18:05:44] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[18:05:44] [Server thread/INFO] [FML]: FML has found a non-mod file core-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[18:05:44] [Server thread/INFO] [FML]: FML has found a non-mod file json-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[18:05:45] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at CLIENT
-[18:05:45] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at SERVER
-[18:05:45] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
-[18:05:45] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
-[18:05:45] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[18:05:45] [Server thread/INFO] [Quark ASM]: Patch result: true
-[18:05:46] [Server thread/ERROR] [FML]: The mod carryon is expecting signature fd21553434f4905f2f73ea7838147ac4ea07bd88 for source carryon-1.12.2-1.12.7.23.jar, however there is no signature matching that description
-[18:05:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
-[18:05:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
-[18:05:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
-[18:05:47] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
-[18:05:47] [Server thread/INFO] [tconstruct]: Preparing to take over the world
-[18:05:47] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[18:05:47] [Server thread/INFO] [FML]: Found 1761 ObjectHolder annotations
-[18:05:47] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[18:05:47] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[18:05:47] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
-[18:05:48] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[18:05:48] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[18:05:48] [Server thread/INFO] [Obfuscate]: Successfully injected SyncedPlayerData capability
-[18:05:49] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
-[18:05:49] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
-[18:05:49] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: UP_TO_DATE Target: null
-[18:05:49] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
-[18:05:50] [Server thread/INFO] [Quark]: 'Double doors open together' is forcefully disabled as it's incompatible with the following loaded mods: [malisisdoors]
-[18:05:50] [Server thread/INFO] [Quark]: Module vanity is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module misc is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module experimental is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module automation is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module client is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module tweaks is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module management is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module world is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module decoration is enabled
-[18:05:50] [Server thread/INFO] [Quark]: Module building is enabled
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Found status: UP_TO_DATE Target: null
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [gravestone] Starting version check at http://maxhenkel.de/update/gravestone.json
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/master/update.json
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Found status: UP_TO_DATE Target: null
-[18:05:52] [Forge Version Check/INFO] [forge.VersionCheck]: [carryon] Starting version check at https://gist.githubusercontent.com/Tschipp/dccadee7c90d7a34e6e76a35d9d6fa2e/raw/
-[18:05:54] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18:05:54] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[18:05:55] [Server thread/INFO] [STDOUT]: [mod.casinocraft.CasinoKeeper:loadConfig:222]: Config loaded
-[18:05:55] [Server thread/INFO] [FML]: Applying holder lookups
-[18:05:55] [Server thread/INFO] [FML]: Holder lookups applied
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
-[18:05:56] [Server thread/INFO] [malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `customdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `saloondoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `verticalhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `garagedoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `door3x3`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bigdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rustyhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doorfactorytileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `forcefieldtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fencegatetileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:57] [Server thread/WARN] [WAWLA]: No info engine detected! No info will be displayed!
-[18:05:58] [Server thread/INFO] [Chisel]: Loading blocks...
-[18:05:58] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[18:05:58] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[18:05:58] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[18:05:58] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
-[18:05:58] [Server thread/INFO] [Chisel]: Loading Tile Entities...
-[18:05:58] [Server thread/INFO] [Chisel]: Tile Entities loaded.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitygavestone`, expected `gravestone`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:05:59] [Server thread/INFO] [FML]: Applying holder lookups
-[18:05:59] [Server thread/INFO] [FML]: Holder lookups applied
-[18:05:59] [Server thread/INFO] [Chisel]: Loading items...
-[18:05:59] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[18:05:59] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[18:05:59] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[18:05:59] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
-[18:06:00] [Server thread/INFO] [FML]: Applying holder lookups
-[18:06:00] [Server thread/INFO] [FML]: Holder lookups applied
-[18:06:00] [Server thread/INFO] [FML]: Applying holder lookups
-[18:06:00] [Server thread/INFO] [FML]: Holder lookups applied
-[18:06:00] [Server thread/INFO] [FML]: Applying holder lookups
-[18:06:00] [Server thread/INFO] [FML]: Holder lookups applied
-[18:06:00] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:06:00] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:06:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[18:06:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[18:06:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[18:06:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[18:06:00] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[18:06:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:06:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[18:06:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:06:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:06:01] [Server thread/INFO] [Chisel]: Loading recipes...
-[18:06:01] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[18:06:01] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[18:06:01] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[18:06:01] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
-[18:06:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:01] [Server thread/INFO] [FML]: Applying holder lookups
-[18:06:01] [Server thread/INFO] [FML]: Holder lookups applied
-[18:06:02] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.dyePowder@3 = 4xitem.food_chocolate_chip@0
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
-[18:06:02] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
-[18:06:02] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[18:06:02] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
-[18:06:02] [Server thread/INFO] [Quark ASM]: Patch result: true
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbasetile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbigposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
-[18:06:02] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[18:06:02] [Server thread/INFO] [Chisel]: Received 18 IMC messages from mod quark.
-[18:06:02] [Server thread/INFO] [Chisel]: Received 14 IMC messages from mod netherex.
-[18:06:02] [Server thread/INFO] [Chisel]: Received 22 IMC messages from mod tconstruct.
-[18:06:02] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:06:02] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:06:02] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
-[18:06:04] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1365.282265 ms
-[18:06:04] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[18:06:04] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 41 mods
-[18:06:04] [Configuration Process/INFO] [Voice Chat Mod]: No Configuration file found on server, will create one with default settings.
-[18:06:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[18:06:04] [Configuration Process/INFO] [Voice Chat Mod]: Created Configuration file with default settings on server.
-[18:06:04] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod voicechat which appears to be missing, things may not work well
-[18:06:04] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_magenta Expected: 448 Got: 1803
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_lightblue Expected: 417 Got: 1804
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_pink Expected: 388 Got: 1805
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_gray Expected: 1631 Got: 1806
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_gray Expected: 389 Got: 1807
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_blue Expected: 409 Got: 1808
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_lightblue Expected: 433 Got: 1809
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_yellow Expected: 434 Got: 1810
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_red Expected: 444 Got: 1811
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: mowziesmobs:grottol Expected: 1644 Got: 1812
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_green Expected: 459 Got: 1813
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_purple Expected: 424 Got: 1814
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_orange Expected: 1625 Got: 1815
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_orange Expected: 383 Got: 1816
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_lightblue Expected: 385 Got: 1817
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_silver Expected: 422 Got: 1818
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_purple Expected: 456 Got: 1819
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_brown Expected: 442 Got: 1820
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_pink Expected: 1630 Got: 1821
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_orange Expected: 431 Got: 1822
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_black Expected: 413 Got: 1823
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_pink Expected: 436 Got: 1824
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_pink Expected: 452 Got: 1825
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_black Expected: 1639 Got: 1826
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_white Expected: 430 Got: 1827
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_cyan Expected: 423 Got: 1828
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_pink Expected: 404 Got: 1829
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_gray Expected: 453 Got: 1830
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_blue Expected: 441 Got: 1831
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_gray Expected: 405 Got: 1832
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_blue Expected: 393 Got: 1833
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_yellow Expected: 1628 Got: 1834
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_gray Expected: 437 Got: 1835
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_purple Expected: 440 Got: 1836
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_white Expected: 414 Got: 1837
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_cyan Expected: 391 Got: 1838
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_magenta Expected: 416 Got: 1839
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_white Expected: 446 Got: 1840
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_yellow Expected: 450 Got: 1841
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_light_blue Expected: 1627 Got: 1842
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_chest Expected: 1623 Got: 1843
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_lime Expected: 451 Got: 1844
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_orange Expected: 399 Got: 1845
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_black Expected: 445 Got: 1846
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_white Expected: 382 Got: 1847
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: mowziesmobs:campfire Expected: 1643 Got: 1848
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_yellow Expected: 386 Got: 1849
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_red Expected: 1638 Got: 1850
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_lime Expected: 419 Got: 1851
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: gravestone:gravestone Expected: 1622 Got: 1852
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_green Expected: 395 Got: 1853
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_lightblue Expected: 449 Got: 1854
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_green Expected: 427 Got: 1855
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_magenta Expected: 384 Got: 1856
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_lime Expected: 1629 Got: 1857
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_magenta Expected: 432 Got: 1858
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_magenta Expected: 400 Got: 1859
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_brown Expected: 394 Got: 1860
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_lime Expected: 435 Got: 1861
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia Expected: 1640 Got: 1862
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_lime Expected: 403 Got: 1863
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_silver Expected: 1632 Got: 1864
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_brown Expected: 426 Got: 1865
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia_double_slab Expected: 1642 Got: 1866
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_brown Expected: 458 Got: 1867
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_orange Expected: 415 Got: 1868
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia_slab Expected: 1641 Got: 1869
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_yellow Expected: 402 Got: 1870
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_lime Expected: 387 Got: 1871
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_red Expected: 396 Got: 1872
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_orange Expected: 447 Got: 1873
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_pink Expected: 420 Got: 1874
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_green Expected: 443 Got: 1875
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_purple Expected: 392 Got: 1876
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_black Expected: 397 Got: 1877
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_yellow Expected: 418 Got: 1878
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_lightblue Expected: 401 Got: 1879
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_black Expected: 429 Got: 1880
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_silver Expected: 406 Got: 1881
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_cyan Expected: 1633 Got: 1882
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_red Expected: 412 Got: 1883
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_purple Expected: 1634 Got: 1884
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_brown Expected: 1636 Got: 1885
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_blue Expected: 457 Got: 1886
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_red Expected: 460 Got: 1887
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_black Expected: 461 Got: 1888
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_white Expected: 398 Got: 1889
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_purple Expected: 408 Got: 1890
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_red Expected: 428 Got: 1891
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_white Expected: 1624 Got: 1892
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_gray Expected: 421 Got: 1893
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_silver Expected: 454 Got: 1894
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:dice_basic_cyan Expected: 455 Got: 1895
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_brown Expected: 410 Got: 1896
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_base_silver Expected: 390 Got: 1897
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_base_blue Expected: 425 Got: 1898
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_cyan Expected: 407 Got: 1899
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_magenta Expected: 1626 Got: 1900
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_green Expected: 411 Got: 1901
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_cyan Expected: 439 Got: 1902
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: casinocraft:arcade_slot_silver Expected: 438 Got: 1903
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_green Expected: 1637 Got: 1904
-[18:06:05] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_blue Expected: 1635 Got: 1905
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:scar Expected: 4940 Got: 5940
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_cyan Expected: 4365 Got: 5941
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_gray Expected: 4379 Got: 5942
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_brown Expected: 4384 Got: 5943
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_gray Expected: 4267 Got: 5944
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_blue Expected: 4287 Got: 5945
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_lightblue Expected: 4311 Got: 5946
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_green Expected: 4337 Got: 5947
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_cyan Expected: 4349 Got: 5948
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_purple Expected: 4302 Got: 5949
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_blue Expected: 4383 Got: 5950
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_purple Expected: 4334 Got: 5951
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:uzi Expected: 4930 Got: 5952
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:glock Expected: 4931 Got: 5953
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:naga_fang Expected: 5652 Got: 5954
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_pink Expected: 5609 Got: 5955
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:mp5stockclosed Expected: 4936 Got: 5956
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:naga_fang_dagger Expected: 5653 Got: 5957
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_pink Expected: 4330 Got: 5958
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:copper_silver_shulker_upgrade Expected: 5630 Got: 5959
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_magenta Expected: 4358 Got: 5960
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_silver Expected: 4364 Got: 5961
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:copper_iron_chest_upgrade Expected: 5623 Got: 5962
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:test_structure Expected: 5638 Got: 5963
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_blue Expected: 4319 Got: 5964
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_gray Expected: 4283 Got: 5965
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_magenta Expected: 4374 Got: 5966
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_blue Expected: 4271 Got: 5967
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:blowgun Expected: 5645 Got: 5968
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_gray Expected: 4315 Got: 5969
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_gold_chest_upgrade Expected: 5619 Got: 5970
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:diamond_obsidian_chest_upgrade Expected: 5627 Got: 5971
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:spawn_egg Expected: 5646 Got: 5972
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:logo Expected: 5654 Got: 5973
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_magenta Expected: 4342 Got: 5974
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_red Expected: 4354 Got: 5975
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_white Expected: 4324 Got: 5976
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_yellow Expected: 4328 Got: 5977
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_light_blue Expected: 5606 Got: 5978
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_white Expected: 4372 Got: 5979
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_black Expected: 4371 Got: 5980
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_chest Expected: 5602 Got: 5981
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_lime Expected: 4329 Got: 5982
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_orange Expected: 4277 Got: 5983
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_black Expected: 4323 Got: 5984
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:shotgun_sawedoff Expected: 4943 Got: 5985
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:copper_silver_chest_upgrade Expected: 5621 Got: 5986
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:gold_diamond_chest_upgrade Expected: 5620 Got: 5987
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:glowing_jelly Expected: 5651 Got: 5988
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_red Expected: 5617 Got: 5989
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_lime Expected: 4297 Got: 5990
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_purple Expected: 4382 Got: 5991
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_brown Expected: 4352 Got: 5992
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_lime Expected: 5608 Got: 5993
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_magenta Expected: 4310 Got: 5994
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:vanilla_iron_shulker_upgrade Expected: 5634 Got: 5995
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_brown Expected: 4272 Got: 5996
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_lime Expected: 4313 Got: 5997
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_brown Expected: 4368 Got: 5998
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia Expected: 5655 Got: 5999
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:wrought_helmet Expected: 5641 Got: 6000
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_green Expected: 4385 Got: 6001
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:wood_iron_chest_upgrade Expected: 5625 Got: 6002
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_orange Expected: 4293 Got: 6003
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_yellow Expected: 4280 Got: 6004
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_white Expected: 4356 Got: 6005
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_lime Expected: 4265 Got: 6006
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:assault_rifle_advanced Expected: 4922 Got: 6007
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_yellow Expected: 4376 Got: 6008
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:crossbow_dart Expected: 4945 Got: 6009
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:wrought_axe Expected: 5640 Got: 6010
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:diamond_crystal_shulker_upgrade Expected: 5633 Got: 6011
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_purple Expected: 4270 Got: 6012
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_lightblue Expected: 4279 Got: 6013
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_gold_shulker_upgrade Expected: 5628 Got: 6014
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_yellow Expected: 4360 Got: 6015
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:diamond_obsidian_shulker_upgrade Expected: 5636 Got: 6016
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_black Expected: 4307 Got: 6017
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:assault_rifle_mk2 Expected: 4932 Got: 6018
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_fury Expected: 5657 Got: 6019
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_gray Expected: 4363 Got: 6020
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_lightblue Expected: 4359 Got: 6021
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_cyan Expected: 5612 Got: 6022
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_brown Expected: 5615 Got: 6023
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:cheaprifle Expected: 4929 Got: 6024
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:ak12 Expected: 4941 Got: 6025
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_gray Expected: 4347 Got: 6026
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:silver_gold_chest_upgrade Expected: 5622 Got: 6027
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:wood_copper_chest_upgrade Expected: 5626 Got: 6028
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_blue Expected: 4367 Got: 6029
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_black Expected: 4339 Got: 6030
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_rage Expected: 5659 Got: 6031
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_red Expected: 4306 Got: 6032
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_white Expected: 5603 Got: 6033
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:copper_iron_shulker_upgrade Expected: 5632 Got: 6034
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_gray Expected: 4299 Got: 6035
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_silver Expected: 4332 Got: 6036
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_cyan Expected: 4333 Got: 6037
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:spear Expected: 5644 Got: 6038
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_silver Expected: 4268 Got: 6039
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:crossbow Expected: 4944 Got: 6040
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:foliaath_seed Expected: 5637 Got: 6041
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_blue Expected: 4303 Got: 6042
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_red Expected: 4386 Got: 6043
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_cyan Expected: 4285 Got: 6044
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_purple Expected: 4350 Got: 6045
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_green Expected: 5616 Got: 6046
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_magenta Expected: 4326 Got: 6047
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:m16 Expected: 4934 Got: 6048
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_lightblue Expected: 4295 Got: 6049
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_pink Expected: 4266 Got: 6050
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_gray Expected: 5610 Got: 6051
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:vanilla_copper_shulker_upgrade Expected: 5635 Got: 6052
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_lightblue Expected: 4343 Got: 6053
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_pink Expected: 4378 Got: 6054
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_purple Expected: 4366 Got: 6055
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_yellow Expected: 4312 Got: 6056
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_red Expected: 4322 Got: 6057
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_orange Expected: 5604 Got: 6058
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_orange Expected: 4261 Got: 6059
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_lightblue Expected: 4263 Got: 6060
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_silver Expected: 4300 Got: 6061
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_green Expected: 4369 Got: 6062
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_lightblue Expected: 4375 Got: 6063
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_brown Expected: 4320 Got: 6064
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_orange Expected: 4309 Got: 6065
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_black Expected: 4291 Got: 6066
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_pink Expected: 4314 Got: 6067
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_black Expected: 5618 Got: 6068
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_white Expected: 4308 Got: 6069
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_cyan Expected: 4301 Got: 6070
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_blue Expected: 4351 Got: 6071
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_pink Expected: 4282 Got: 6072
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_gray Expected: 4331 Got: 6073
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:revolver_mk2 Expected: 4939 Got: 6074
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:shotgun_doublebarrel Expected: 4942 Got: 6075
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_silver Expected: 4348 Got: 6076
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_misery Expected: 5661 Got: 6077
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_yellow Expected: 5607 Got: 6078
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_silver Expected: 4380 Got: 6079
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_fear Expected: 5658 Got: 6080
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_purple Expected: 4318 Got: 6081
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_white Expected: 4292 Got: 6082
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_cyan Expected: 4381 Got: 6083
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_green Expected: 4353 Got: 6084
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_cyan Expected: 4269 Got: 6085
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: gravestone:death_info Expected: 5601 Got: 6086
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_magenta Expected: 4294 Got: 6087
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_lime Expected: 4361 Got: 6088
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:revolver Expected: 4925 Got: 6089
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:grant_suns_blessing Expected: 5647 Got: 6090
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_black Expected: 4387 Got: 6091
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:earth_talisman Expected: 5649 Got: 6092
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_orange Expected: 4341 Got: 6093
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_orange Expected: 4357 Got: 6094
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_white Expected: 4260 Got: 6095
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_yellow Expected: 4264 Got: 6096
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:deagle Expected: 4928 Got: 6097
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: gravestone:gravestone Expected: 5600 Got: 6098
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_green Expected: 4273 Got: 6099
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_lightblue Expected: 4327 Got: 6100
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_green Expected: 4305 Got: 6101
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_magenta Expected: 4262 Got: 6102
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_orange Expected: 4373 Got: 6103
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_magenta Expected: 4278 Got: 6104
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:shotgun_auto Expected: 4923 Got: 6105
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_white Expected: 4340 Got: 6106
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_black Expected: 4355 Got: 6107
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:shotgun_mk2 Expected: 4933 Got: 6108
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_lime Expected: 4281 Got: 6109
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_silver Expected: 5611 Got: 6110
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_chip_lime Expected: 4377 Got: 6111
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_brown Expected: 4304 Got: 6112
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_yellow Expected: 4344 Got: 6113
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:mob_remover Expected: 5639 Got: 6114
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:barako_mask Expected: 5642 Got: 6115
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_brown Expected: 4336 Got: 6116
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:ice_crystal Expected: 5648 Got: 6117
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia_slab Expected: 5656 Got: 6118
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:dart Expected: 5643 Got: 6119
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:aug Expected: 4938 Got: 6120
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_red Expected: 4274 Got: 6121
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:grenade_launcher_advanced Expected: 4937 Got: 6122
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_orange Expected: 4325 Got: 6123
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_pink Expected: 4298 Got: 6124
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_green Expected: 4321 Got: 6125
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_lime Expected: 4345 Got: 6126
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_pink Expected: 4362 Got: 6127
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_base_black Expected: 4275 Got: 6128
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_base_yellow Expected: 4296 Got: 6129
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:captured_grottol Expected: 5650 Got: 6130
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_mino_pink Expected: 4346 Got: 6131
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_silver Expected: 4284 Got: 6132
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_red Expected: 4290 Got: 6133
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_purple Expected: 5613 Got: 6134
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:module_card_red Expected: 4370 Got: 6135
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:hand_grenadelauncher Expected: 4926 Got: 6136
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_blue Expected: 4335 Got: 6137
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:dice_basic_red Expected: 4338 Got: 6138
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:silver_gold_shulker_upgrade Expected: 5631 Got: 6139
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:diamond_crystal_chest_upgrade Expected: 5624 Got: 6140
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_bliss Expected: 5660 Got: 6141
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_white Expected: 4276 Got: 6142
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_purple Expected: 4286 Got: 6143
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:rifle_advanced Expected: 4924 Got: 6144
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:mp5 Expected: 4935 Got: 6145
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:advanced_shell Expected: 4946 Got: 6146
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: advancedrifles:awp Expected: 4927 Got: 6147
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_brown Expected: 4288 Got: 6148
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:gold_diamond_shulker_upgrade Expected: 5629 Got: 6149
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_magenta Expected: 5605 Got: 6150
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:cardtable_wide_green Expected: 4289 Got: 6151
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_cyan Expected: 4317 Got: 6152
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: casinocraft:arcade_slot_silver Expected: 4316 Got: 6153
-[18:06:05] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ironchest:iron_shulker_box_blue Expected: 5614 Got: 6154
-[18:06:05] [Server thread/WARN] [FML]: Registry Potion: Object did not get ID it asked for. Name: mowziesmobs:suns_blessing Expected: 36 Got: 57
-[18:06:05] [Server thread/WARN] [FML]: Registry Potion: Object did not get ID it asked for. Name: mowziesmobs:frozen Expected: 38 Got: 58
-[18:06:05] [Server thread/WARN] [FML]: Registry Potion: Object did not get ID it asked for. Name: mowziesmobs:poison_resist Expected: 39 Got: 59
-[18:06:05] [Server thread/WARN] [FML]: Registry Potion: Object did not get ID it asked for. Name: mowziesmobs:geomancy Expected: 37 Got: 60
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:laser Expected: 662 Got: 744
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.swing Expected: 693 Got: 745
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:supernova.end Expected: 717 Got: 746
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.swing3 Expected: 670 Got: 747
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.die Expected: 720 Got: 748
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.swing1 Expected: 668 Got: 749
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.swing2 Expected: 669 Got: 751
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: advancedrifles:item.assaulter.reload Expected: 599 Got: 752
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.grunt2 Expected: 682 Got: 753
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.grunt1 Expected: 681 Got: 754
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.battlecry2 Expected: 692 Got: 755
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.step Expected: 752 Got: 756
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.grunt3 Expected: 683 Got: 757
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.die Expected: 745 Got: 760
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.axe_land Expected: 687 Got: 761
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk3 Expected: 701 Got: 763
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.scream Expected: 680 Got: 764
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk2 Expected: 700 Got: 765
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.emerge Expected: 694 Got: 766
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk1 Expected: 699 Got: 767
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.axe_hit Expected: 688 Got: 769
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk7 Expected: 705 Got: 772
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.blowdart Expected: 690 Got: 773
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk6 Expected: 704 Got: 774
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk5 Expected: 703 Got: 775
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk4 Expected: 702 Got: 776
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:lantern.puff Expected: 767 Got: 777
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.undamaged Expected: 686 Got: 778
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.land Expected: 753 Got: 779
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.battlecry Expected: 691 Got: 780
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.baby.eat Expected: 743 Got: 781
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.frozencrash Expected: 751 Got: 782
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.talk6 Expected: 727 Got: 783
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.talk5 Expected: 726 Got: 785
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.living1 Expected: 760 Got: 787
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack1 Expected: 754 Got: 788
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.living2 Expected: 761 Got: 793
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack2 Expected: 755 Got: 794
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.retreat Expected: 737 Got: 795
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack3 Expected: 756 Got: 796
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack4 Expected: 757 Got: 797
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.step Expected: 685 Got: 798
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.talk4 Expected: 725 Got: 799
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.talk3 Expected: 724 Got: 800
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:grottol.burrow Expected: 765 Got: 801
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.talk2 Expected: 723 Got: 802
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.breaklarge Expected: 788 Got: 803
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.talk1 Expected: 722 Got: 804
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rumble3 Expected: 801 Got: 807
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.shout Expected: 698 Got: 808
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rumble1 Expected: 799 Got: 809
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rumble2 Expected: 800 Got: 810
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.whoosh Expected: 746 Got: 811
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.shout2 Expected: 672 Got: 812
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.shout3 Expected: 673 Got: 813
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitbig Expected: 787 Got: 814
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: advancedrifles:item.crossbow.fire Expected: 598 Got: 815
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.whoosh Expected: 678 Got: 816
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.shout1 Expected: 671 Got: 817
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rockcrash1 Expected: 797 Got: 818
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.grunt1 Expected: 777 Got: 819
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.grunt3 Expected: 779 Got: 820
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.grunt2 Expected: 778 Got: 821
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.magicchargesmall Expected: 804 Got: 822
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:music.black_pink Expected: 807 Got: 823
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.pant1 Expected: 738 Got: 824
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.pant2 Expected: 739 Got: 825
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pull2 Expected: 675 Got: 826
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pull1 Expected: 674 Got: 827
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.belly Expected: 712 Got: 828
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.emerge Expected: 736 Got: 829
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.roar Expected: 744 Got: 830
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.ambient Expected: 684 Got: 831
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.scream Expected: 714 Got: 832
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.attack Expected: 718 Got: 833
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:grottol.step Expected: 763 Got: 834
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.hurt Expected: 741 Got: 835
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.bless Expected: 721 Got: 836
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.grunt Expected: 734 Got: 837
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.roar4 Expected: 783 Got: 838
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.icebreath Expected: 747 Got: 839
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rockbreak Expected: 796 Got: 840
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.hurt Expected: 696 Got: 841
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.roar2 Expected: 781 Got: 842
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.roar3 Expected: 782 Got: 843
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.flap1 Expected: 773 Got: 844
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.roar1 Expected: 780 Got: 845
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.bouldercharge Expected: 803 Got: 846
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.acidspithiss Expected: 772 Got: 847
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitmedium Expected: 794 Got: 848
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.iceballcharge Expected: 749 Got: 849
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:grottol.die Expected: 766 Got: 850
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitmedium2 Expected: 795 Got: 851
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.angry1 Expected: 728 Got: 852
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.retract Expected: 695 Got: 853
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry2 Expected: 707 Got: 854
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.burst Expected: 713 Got: 855
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.angry5 Expected: 732 Got: 856
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry1 Expected: 706 Got: 857
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.angry4 Expected: 731 Got: 858
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.angry3 Expected: 730 Got: 859
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.angry2 Expected: 729 Got: 860
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry6 Expected: 711 Got: 861
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry5 Expected: 710 Got: 862
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry4 Expected: 709 Got: 863
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry3 Expected: 708 Got: 864
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.angry6 Expected: 733 Got: 865
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.rustle Expected: 735 Got: 866
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.release2 Expected: 677 Got: 867
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.creak Expected: 667 Got: 868
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.icebreathstart Expected: 748 Got: 869
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.die Expected: 742 Got: 870
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.smallrockhit Expected: 802 Got: 871
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barako.hurt Expected: 719 Got: 872
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:sunstrike Expected: 663 Got: 873
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.acidcharge Expected: 769 Got: 874
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.preswing3 Expected: 666 Got: 875
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.preswing2 Expected: 665 Got: 876
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:foliaath.bite1 Expected: 740 Got: 877
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rockcrumble Expected: 798 Got: 878
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.growl3 Expected: 776 Got: 879
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.growl2 Expected: 775 Got: 880
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.smallcrash Expected: 785 Got: 881
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.inhale Expected: 689 Got: 882
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:naga.growl1 Expected: 774 Got: 883
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.preswing1 Expected: 664 Got: 884
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:supernova.blackhole Expected: 716 Got: 885
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:barakoa.die Expected: 697 Got: 886
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hit Expected: 793 Got: 887
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.hurt1 Expected: 679 Got: 888
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pull5 Expected: 676 Got: 889
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:grottol.undamaged Expected: 764 Got: 890
-[18:06:05] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: mowziesmobs:supernova.start Expected: 715 Got: 891
-[18:06:05] [Server thread/WARN] [FML]: Registry PotionType: Object did not get ID it asked for. Name: mowziesmobs:poison_resist Expected: 51 Got: 55
-[18:06:05] [Server thread/WARN] [FML]: Registry PotionType: Object did not get ID it asked for. Name: mowziesmobs:long_poison_resist Expected: 52 Got: 56
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:barakoan_barakoana Expected: 145 Got: 174
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:baby_foliaath Expected: 143 Got: 175
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:ferrous_wroughtnaut Expected: 144 Got: 176
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:barakoaya Expected: 147 Got: 177
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:ring Expected: 161 Got: 178
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:grottol Expected: 151 Got: 179
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:lantern Expected: 152 Got: 180
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:frozen_controller Expected: 160 Got: 181
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:sunstrike Expected: 154 Got: 182
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:dart Expected: 162 Got: 183
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:barakoana Expected: 146 Got: 184
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:axe_attack Expected: 157 Got: 185
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:super_nova Expected: 164 Got: 186
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:naga Expected: 153 Got: 187
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: advancedrifles:crossbow_dart Expected: 0 Got: 188
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: advancedrifles:advanced_shell Expected: 38 Got: 189
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:foliaath Expected: 142 Got: 190
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:solar_beam Expected: 155 Got: 191
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:poison_ball Expected: 163 Got: 192
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:barakoan_player Expected: 148 Got: 193
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:boulder Expected: 156 Got: 194
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:frostmaw Expected: 150 Got: 195
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:barako Expected: 149 Got: 196
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:ice_ball Expected: 159 Got: 197
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:icebreath Expected: 158 Got: 198
-[18:06:05] [Server thread/WARN] [FML]: Registry EntityEntry: Object did not get ID it asked for. Name: mowziesmobs:block_swapper Expected: 165 Got: 199
-[18:06:06] [Server thread/INFO] [FML]: Applying holder lookups
-[18:06:06] [Server thread/INFO] [FML]: Holder lookups applied
-[18:06:06] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6f086bea)
-[18:06:06] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 760 advancements
-[18:06:06] [Server thread/INFO] [NetherEx]: Reading biome configs.
-[18:06:07] [Server thread/INFO] [NetherEx]: Reading Pigtificate trade configs.
-[18:06:07] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6f086bea)
-[18:06:07] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[18:06:07] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6f086bea)
-[18:06:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[18:06:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
-[18:06:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 81%
-[18:06:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.814s)! For help, type "help" or "?"
-[18:06:09] [Server thread/INFO] [NetherEx]: The Nether has been overridden.
-[18:06:09] [Voice Server Process/WARN] [Voice Chat Mod]: Minecraft Networking is not recommended and is consider very slow, please setup UDP.
-[18:06:09] [Voice Server Process/INFO] [Voice Chat Mod]: Started [Minecraft] Server.
-[18:06:10] [Server thread/INFO] [FML]: Unloading dimension 1
-[18:06:10] [Server thread/INFO] [FML]: Unloading dimension -1
-[18:06:41] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
-[18:06:41] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[18:06:41] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,tlauncher_custom_cape_skin@1.4,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2859,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[18:06:44] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:06:44] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: PeruFreeFire2008[/127.87.110.154:36499] logged in with entity id 409 at (-178.52554982703123, 75.0, 160.90918100376055)
-[18:06:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 joined the game
-[18:08:57] [Server thread/WARN] [FML]: Quark loaded a new chunk [-18, -3] in dimension 0 (overworld) while populating chunk [-18, -2], causing cascading worldgen lag.
-[18:08:57] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:08:58] [Server thread/WARN] [FML]: Quark loaded a new chunk [-19, -3] in dimension 0 (overworld) while populating chunk [-18, -2], causing cascading worldgen lag.
-[18:08:58] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:09:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 is bleeding...
-[18:09:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Killed PeruFreeFire2008]
-[18:09:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 fell out of the world
-[18:09:54] [Server thread/WARN] [FML]: Quark loaded a new chunk [6, 31] in dimension 0 (overworld) while populating chunk [5, 31], causing cascading worldgen lag.
-[18:09:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:33:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:33:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:33:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:33:51] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[18:33:51] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[18:33:53] [main/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
+[18:33:53] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.10.jar
+[18:33:53] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:33:53] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:33:53] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[18:33:53] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:33:53] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:33:53] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[18:33:53] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[18:33:53] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[18:33:53] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:33:53] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[18:33:53] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:33:53] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[18:33:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:33:53] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[18:33:53] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/DownCraft/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.10.jar Service=LaunchWrapper Env=SERVER
+[18:33:53] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
+[18:33:53] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[18:33:53] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:33:53] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[18:33:53] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:33:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:33:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:33:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:33:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:55] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:33:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:55] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[18:33:55] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4525d1d3
+[18:33:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:33:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:33:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:33:56] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:33:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:33:56] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:33:56] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
+[18:33:56] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[18:33:56] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[18:33:57] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[18:33:57] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:57] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:57] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
+[18:33:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[18:33:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[18:33:57] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[18:33:57] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:57] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:57] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[18:33:57] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[18:33:57] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[18:33:57] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[18:33:57] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:57] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[18:33:57] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:57] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:33:58] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[18:33:58] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[18:33:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[18:33:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:33:58] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[18:33:58] [main/INFO] [Quark ASM]: Patch result: true
+[18:33:59] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:34:00] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[18:34:00] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:00] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[18:34:00] [main/INFO] [Quark ASM]: Failed to locate the method!
+[18:34:00] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[18:34:00] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[18:34:00] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:00] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:01] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[18:34:01] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[18:34:01] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:01] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[18:34:01] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:02] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[18:34:02] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[18:34:02] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:34:02] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:34:02] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:34:02] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:34:02] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:34:02] [main/INFO] [Quark ASM]: Patch result: true
+[18:34:02] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
+[18:34:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[18:34:02] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[18:34:02] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:34:02] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:34:03] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:34:03] [Server thread/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
+[18:34:03] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.10
+[18:34:04] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[18:34:04] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[18:34:05] [Server thread/INFO] [FML]: Forge Mod Loader has identified 41 mods to load
+[18:34:05] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[18:34:05] [Server thread/WARN] [FML]: Missing English translation for libraryex: assets/libraryex/lang/en_us.lang
+[18:34:05] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[18:34:05] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:34:05] [Server thread/INFO] [FML]: FML has found a non-mod file core-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:34:05] [Server thread/INFO] [FML]: FML has found a non-mod file json-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:34:05] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at CLIENT
+[18:34:05] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at SERVER
+[18:34:06] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[18:34:06] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[18:34:06] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[18:34:06] [Server thread/INFO] [Quark ASM]: Patch result: true
+[18:34:06] [Server thread/ERROR] [FML]: The mod carryon is expecting signature fd21553434f4905f2f73ea7838147ac4ea07bd88 for source carryon-1.12.2-1.12.7.23.jar, however there is no signature matching that description
+[18:34:07] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[18:34:07] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[18:34:07] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[18:34:07] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[18:34:07] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[18:34:08] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:34:08] [Server thread/INFO] [FML]: Found 1761 ObjectHolder annotations
+[18:34:08] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:34:08] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:34:08] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
+[18:34:08] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:34:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:34:08] [Server thread/INFO] [Obfuscate]: Successfully injected SyncedPlayerData capability
+[18:34:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[18:34:09] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/master/update.json
+[18:34:09] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
+[18:34:09] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
+[18:34:09] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Found status: UP_TO_DATE Target: null
+[18:34:09] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[18:34:10] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: UP_TO_DATE Target: null
+[18:34:10] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
+[18:34:10] [Server thread/INFO] [Quark]: 'Double doors open together' is forcefully disabled as it's incompatible with the following loaded mods: [malisisdoors]
+[18:34:11] [Server thread/INFO] [Quark]: Module automation is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module misc is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module experimental is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module building is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module world is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module tweaks is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module decoration is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module management is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module vanity is enabled
+[18:34:11] [Server thread/INFO] [Quark]: Module client is enabled
+[18:34:15] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Found status: UP_TO_DATE Target: null
+[18:34:15] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
+[18:34:15] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
+[18:34:15] [Forge Version Check/INFO] [forge.VersionCheck]: [carryon] Starting version check at https://gist.githubusercontent.com/Tschipp/dccadee7c90d7a34e6e76a35d9d6fa2e/raw/
+[18:34:15] [Forge Version Check/INFO] [forge.VersionCheck]: [gravestone] Starting version check at http://maxhenkel.de/update/gravestone.json
+[18:34:16] [Server thread/INFO] [STDOUT]: [mod.casinocraft.CasinoKeeper:loadConfig:222]: Config loaded
+[18:34:16] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:16] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
+[18:34:17] [Server thread/INFO] [malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `customdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `saloondoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `verticalhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `garagedoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `door3x3`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bigdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rustyhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doorfactorytileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `forcefieldtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fencegatetileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [WAWLA]: No info engine detected! No info will be displayed!
+[18:34:18] [Server thread/INFO] [Chisel]: Loading blocks...
+[18:34:18] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[18:34:18] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[18:34:18] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[18:34:18] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
+[18:34:18] [Server thread/INFO] [Chisel]: Loading Tile Entities...
+[18:34:18] [Server thread/INFO] [Chisel]: Tile Entities loaded.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitygavestone`, expected `gravestone`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:19] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:19] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:19] [Server thread/INFO] [Chisel]: Loading items...
+[18:34:19] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[18:34:19] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[18:34:19] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[18:34:19] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
+[18:34:20] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:20] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:20] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:20] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:20] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:20] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:20] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:34:20] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:34:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:34:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:34:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[18:34:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[18:34:20] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[18:34:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:34:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[18:34:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:34:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:34:21] [Server thread/INFO] [Chisel]: Loading recipes...
+[18:34:21] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[18:34:21] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[18:34:21] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[18:34:21] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:21] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:21] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.dyePowder@3 = 4xitem.food_chocolate_chip@0
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:21] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[18:34:21] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[18:34:21] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[18:34:21] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[18:34:21] [Server thread/INFO] [Quark ASM]: Patch result: true
+[18:34:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbasetile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbigposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
+[18:34:22] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:34:22] [Server thread/INFO] [Chisel]: Received 18 IMC messages from mod quark.
+[18:34:22] [Server thread/INFO] [Chisel]: Received 14 IMC messages from mod netherex.
+[18:34:22] [Server thread/INFO] [Chisel]: Received 22 IMC messages from mod tconstruct.
+[18:34:22] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:34:22] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:34:22] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[18:34:23] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1359.887393 ms
+[18:34:23] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18:34:24] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 41 mods
+[18:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:34:24] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[18:34:25] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:25] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:25] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6b315737)
+[18:34:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 760 advancements
+[18:34:26] [Server thread/INFO] [NetherEx]: Reading biome configs.
+[18:34:26] [Server thread/INFO] [NetherEx]: Reading Pigtificate trade configs.
+[18:34:26] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6b315737)
+[18:34:26] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[18:34:26] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6b315737)
+[18:34:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:34:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
+[18:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 92%
+[18:34:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.143s)! For help, type "help" or "?"
+[18:34:28] [Server thread/INFO] [NetherEx]: The Nether has been overridden.
+[18:34:28] [Voice Server Process/WARN] [Voice Chat Mod]: Minecraft Networking is not recommended and is consider very slow, please setup UDP.
+[18:34:28] [Voice Server Process/INFO] [Voice Chat Mod]: Started [Minecraft] Server.
+[18:34:29] [Server thread/INFO] [FML]: Unloading dimension 1
+[18:34:29] [Server thread/INFO] [FML]: Unloading dimension -1

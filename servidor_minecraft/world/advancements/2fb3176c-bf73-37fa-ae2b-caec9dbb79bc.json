@@ -883,7 +883,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "skeleton": "2025-07-26 01:38:16 +0000"
+      "skeleton": "2025-07-26 01:38:16 +0000",
+      "zombie": "2025-07-26 01:52:40 +0000"
     },
     "done": false
   },
@@ -2334,6 +2335,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2025-07-26 01:53:54 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:35:48 +0000"
@@ -2631,6 +2638,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:35:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-07-26 01:53:54 +0000"
     },
     "done": true
   },

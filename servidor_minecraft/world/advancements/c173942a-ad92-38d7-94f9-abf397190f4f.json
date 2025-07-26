@@ -2350,6 +2350,12 @@
     },
     "done": true
   },
+  "casinocraft:recipes/misc/item_paper": {
+    "criteria": {
+      "has_paper": "2025-07-26 02:26:36 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/smooth_white_sandstone": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"

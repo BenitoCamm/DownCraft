@@ -1603,7 +1603,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "redwood_taiga": "2025-07-26 01:59:32 +0000",
       "taiga": "2025-07-26 01:47:00 +0000",
+      "redwood_taiga_hills": "2025-07-26 02:12:45 +0000",
+      "taiga_hills": "2025-07-26 02:11:24 +0000",
+      "extreme_hills": "2025-07-26 02:11:18 +0000",
       "river": "2025-07-26 01:53:05 +0000"
     },
     "done": false
@@ -2334,6 +2338,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_mutton": "2025-07-26 02:06:19 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"
@@ -2538,6 +2548,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-07-26 01:57:36 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/lime_dye_from_glowshroom": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"
@@ -2631,6 +2647,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-07-26 02:06:19 +0000"
     },
     "done": true
   },
@@ -2919,6 +2941,12 @@
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-07-26 02:00:01 +0000"
     },
     "done": true
   },
@@ -3321,6 +3349,12 @@
   "biomesoplenty:recipes/buildingblocks/ebony_stairs": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-07-26 01:56:33 +0000"
     },
     "done": true
   },
@@ -3783,6 +3817,12 @@
   "biomesoplenty:recipes/misc/gray_dye_from_ash": {
     "criteria": {
       "has_the_recipe": "2025-07-26 01:47:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-07-26 02:14:35 +0000"
     },
     "done": true
   },

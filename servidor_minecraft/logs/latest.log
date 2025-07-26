@@ -1,581 +1,445 @@
-[01:24:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:24:24] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:24:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:24:24] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[01:24:24] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[01:24:27] [main/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
-[01:24:27] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.10.jar
-[01:24:27] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[01:24:27] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[01:24:27] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
-[01:24:27] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[01:24:27] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[01:24:27] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
-[01:24:27] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
-[01:24:27] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
-[01:24:27] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[01:24:27] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
-[01:24:27] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[01:24:27] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[01:24:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:24:27] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[01:24:27] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/DownCraft/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.10.jar Service=LaunchWrapper Env=SERVER
-[01:24:27] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
-[01:24:27] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[01:24:27] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[01:24:27] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
-[01:24:27] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[01:24:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:24:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:24:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:24:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:29] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[01:24:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:29] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[01:24:29] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4525d1d3
-[01:24:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:24:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:24:30] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[01:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[01:24:30] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
-[01:24:30] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
-[01:24:30] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
-[01:24:31] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[01:24:31] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[01:24:31] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:31] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:31] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[01:24:31] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:31] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:31] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
-[01:24:31] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[01:24:31] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[01:24:31] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[01:24:31] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[01:24:31] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:31] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:31] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[01:24:31] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:31] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:31] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
-[01:24:31] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[01:24:31] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[01:24:32] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[01:24:32] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node ARETURN
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:32] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[01:24:32] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:32] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[01:24:32] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[01:24:34] [main/INFO] [Quark ASM]: Located patch target node IRETURN
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Located patch target node ARETURN
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
-[01:24:34] [main/INFO] [Quark ASM]: Failed to locate the method!
-[01:24:34] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
-[01:24:34] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
-[01:24:34] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:34] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:35] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
-[01:24:35] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
-[01:24:35] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:35] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
-[01:24:35] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:36] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
-[01:24:36] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[01:24:36] [main/INFO] [Quark ASM]: Located Method, patching...
-[01:24:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:24:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:24:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:24:36] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:24:36] [main/INFO] [Quark ASM]: Patch result: true
-[01:24:36] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
-[01:24:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[01:24:36] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[01:24:36] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[01:24:37] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[01:24:37] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[01:24:37] [Server thread/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
-[01:24:38] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.10
-[01:24:38] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
-[01:24:39] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
-[01:24:39] [Server thread/INFO] [FML]: Forge Mod Loader has identified 41 mods to load
-[01:24:39] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[01:24:39] [Server thread/WARN] [FML]: Missing English translation for libraryex: assets/libraryex/lang/en_us.lang
-[01:24:39] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
-[01:24:40] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[01:24:40] [Server thread/INFO] [FML]: FML has found a non-mod file core-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[01:24:40] [Server thread/INFO] [FML]: FML has found a non-mod file json-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[01:24:40] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at CLIENT
-[01:24:40] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at SERVER
-[01:24:41] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
-[01:24:41] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
-[01:24:41] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[01:24:41] [Server thread/INFO] [Quark ASM]: Patch result: true
-[01:24:41] [Server thread/ERROR] [FML]: The mod carryon is expecting signature fd21553434f4905f2f73ea7838147ac4ea07bd88 for source carryon-1.12.2-1.12.7.23.jar, however there is no signature matching that description
-[01:24:43] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
-[01:24:43] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
-[01:24:43] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
-[01:24:43] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
-[01:24:43] [Server thread/INFO] [tconstruct]: Preparing to take over the world
-[01:24:43] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[01:24:43] [Server thread/INFO] [FML]: Found 1761 ObjectHolder annotations
-[01:24:43] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[01:24:43] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[01:24:43] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
-[01:24:43] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[01:24:43] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/master/update.json
-[01:24:43] [Server thread/INFO] [Obfuscate]: Successfully injected SyncedPlayerData capability
-[01:24:44] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Found status: UP_TO_DATE Target: null
-[01:24:44] [Forge Version Check/INFO] [forge.VersionCheck]: [gravestone] Starting version check at http://maxhenkel.de/update/gravestone.json
-[01:24:45] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
-[01:24:45] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
-[01:24:45] [Server thread/INFO] [Quark]: 'Double doors open together' is forcefully disabled as it's incompatible with the following loaded mods: [malisisdoors]
-[01:24:46] [Server thread/INFO] [Quark]: Module tweaks is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module misc is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module management is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module vanity is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module building is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module client is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module decoration is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module experimental is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module automation is enabled
-[01:24:46] [Server thread/INFO] [Quark]: Module world is enabled
-[01:24:46] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
-[01:24:50] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Found status: UP_TO_DATE Target: null
-[01:24:50] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
-[01:24:50] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
-[01:24:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01:24:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[01:24:50] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[01:24:51] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: UP_TO_DATE Target: null
-[01:24:51] [Forge Version Check/INFO] [forge.VersionCheck]: [carryon] Starting version check at https://gist.githubusercontent.com/Tschipp/dccadee7c90d7a34e6e76a35d9d6fa2e/raw/
-[01:24:51] [Server thread/INFO] [STDOUT]: [mod.casinocraft.CasinoKeeper:loadConfig:222]: Config loaded
-[01:24:51] [Server thread/INFO] [FML]: Applying holder lookups
-[01:24:51] [Server thread/INFO] [FML]: Holder lookups applied
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
-[01:24:52] [Server thread/INFO] [malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `customdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `saloondoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `verticalhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `garagedoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `door3x3`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bigdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rustyhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doorfactorytileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `forcefieldtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fencegatetileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:53] [Server thread/WARN] [WAWLA]: No info engine detected! No info will be displayed!
-[01:24:53] [Server thread/INFO] [Chisel]: Loading blocks...
-[01:24:53] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[01:24:53] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[01:24:53] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[01:24:54] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
-[01:24:54] [Server thread/INFO] [Chisel]: Loading Tile Entities...
-[01:24:54] [Server thread/INFO] [Chisel]: Tile Entities loaded.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitygavestone`, expected `gravestone`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:55] [Server thread/INFO] [FML]: Applying holder lookups
-[01:24:55] [Server thread/INFO] [FML]: Holder lookups applied
-[01:24:55] [Server thread/INFO] [Chisel]: Loading items...
-[01:24:55] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[01:24:55] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[01:24:55] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[01:24:55] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
-[01:24:55] [Server thread/INFO] [FML]: Applying holder lookups
-[01:24:55] [Server thread/INFO] [FML]: Holder lookups applied
-[01:24:56] [Server thread/INFO] [FML]: Applying holder lookups
-[01:24:56] [Server thread/INFO] [FML]: Holder lookups applied
-[01:24:56] [Server thread/INFO] [FML]: Applying holder lookups
-[01:24:56] [Server thread/INFO] [FML]: Holder lookups applied
-[01:24:56] [Server thread/INFO] [FML]: Injecting itemstacks
-[01:24:56] [Server thread/INFO] [FML]: Itemstack injection complete
-[01:24:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[01:24:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[01:24:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[01:24:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[01:24:56] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[01:24:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:24:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[01:24:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:24:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:24:57] [Server thread/INFO] [Chisel]: Loading recipes...
-[01:24:57] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[01:24:57] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[01:24:57] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[01:24:57] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/INFO] [FML]: Applying holder lookups
-[01:24:57] [Server thread/INFO] [FML]: Holder lookups applied
-[01:24:57] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.dyePowder@3 = 4xitem.food_chocolate_chip@0
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
-[01:24:57] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
-[01:24:57] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[01:24:57] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
-[01:24:57] [Server thread/INFO] [Quark ASM]: Patch result: true
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbasetile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbigposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
-[01:24:58] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[01:24:58] [Server thread/INFO] [Chisel]: Received 18 IMC messages from mod quark.
-[01:24:58] [Server thread/INFO] [Chisel]: Received 14 IMC messages from mod netherex.
-[01:24:58] [Server thread/INFO] [Chisel]: Received 22 IMC messages from mod tconstruct.
-[01:24:58] [Server thread/INFO] [FML]: Injecting itemstacks
-[01:24:58] [Server thread/INFO] [FML]: Itemstack injection complete
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[01:24:58] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
-[01:24:59] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1357.911368 ms
-[01:24:59] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[01:25:00] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 41 mods
-[01:25:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[01:25:00] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[01:25:01] [Server thread/INFO] [FML]: Applying holder lookups
-[01:25:01] [Server thread/INFO] [FML]: Holder lookups applied
-[01:25:01] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4293b7bf)
-[01:25:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 760 advancements
-[01:25:02] [Server thread/INFO] [NetherEx]: Reading biome configs.
-[01:25:02] [Server thread/INFO] [NetherEx]: Reading Pigtificate trade configs.
-[01:25:02] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4293b7bf)
-[01:25:02] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[01:25:02] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4293b7bf)
-[01:25:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[01:25:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
-[01:25:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 74%
-[01:25:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.908s)! For help, type "help" or "?"
-[01:25:05] [Server thread/INFO] [NetherEx]: The Nether has been overridden.
-[01:25:05] [Voice Server Process/WARN] [Voice Chat Mod]: Minecraft Networking is not recommended and is consider very slow, please setup UDP.
-[01:25:05] [Voice Server Process/INFO] [Voice Chat Mod]: Started [Minecraft] Server.
-[01:25:05] [Server thread/INFO] [FML]: Unloading dimension 1
-[01:25:05] [Server thread/INFO] [FML]: Unloading dimension -1
-[01:33:26] [Netty Epoll Server IO #0/INFO] [FML]: Disconnecting Player: This server has mods that require FML/Forge to be installed on the client: [Advanced Rifles, AutoRegLib, Biomes O' Plenty, Camera Mod, Carry On, CasinoCraft, Chisel, CreativeCore, Drug Mod, GeckoLib, Gliby's Voice Chat Mod, Gravestone Mod, Iron Chest, LLibrary, LibraryEx, MalisisCore, MalisisDoors, Mantle, Mowzie's Mobs, MrCrayfish's Furniture Mod, MrCrayfish's Gun Mod, MrCrayfish's Jumping Castle Mod, MrCrayfish's Vehicle Mod, NetherEx, Player Revive, SecurityCraft, Signpost, Tinkers' Construct, Wearable Backpacks, XL Food Mod]
-[01:34:09] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
-[01:34:10] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[01:34:10] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,tlauncher_custom_cape_skin@1.4,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2859,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[01:34:12] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:34:12] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: PeruFreeFire2008[/127.140.57.228:55403] logged in with entity id 587 at (484.4481533912404, 68.10351920378845, 365.51683520727073)
-[01:34:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 joined the game
-[01:34:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: PeruFreeFire2008 moved too quickly! -5.725875259323516,1.5659166463301801,8.24823755059748
-[01:34:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 is bleeding...
-[01:34:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Killed PeruFreeFire2008]
-[01:34:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 fell out of the world
-[01:35:46] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[01:35:46] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 42 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2860,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[01:35:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:35:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: SpykeMTV[/127.120.200.227:44391] logged in with entity id 7139 at (7.5, 64.0, 261.5)
-[01:35:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV joined the game
-[01:35:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Teleported PeruFreeFire2008 to SpykeMTV]
-[01:36:29] [Stream Update/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.util.ConcurrentModificationException
-[01:36:29] [Stream Update/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
-[01:36:29] [Stream Update/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.ArrayList$Itr.next(ArrayList.java:861)
-[01:36:29] [Stream Update/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.gliby.voicechat.common.networking.ThreadDataUpdateStream.run(ThreadDataUpdateStream.java:13)
-[01:36:29] [Stream Update/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:750)
-[01:38:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:38:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV has made the advancement [Monster Hunter]
-[01:38:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set the time to 1000]
-[01:38:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Survival Mode]
-[01:38:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Creative Mode]
-[01:40:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Survival Mode]
-[01:40:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 is bleeding...
-[01:40:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:40:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: SpykeMTV lost connection: Disconnected
-[01:40:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV left the game
-[01:40:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV hit the ground too hard
-[01:41:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Creative Mode]
-[01:41:08] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[01:41:08] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 42 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2860,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[01:41:10] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:41:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: SpykeMTV[/127.120.200.227:39739] logged in with entity id 14940 at (5.394415389263264, 64.0, 259.91814393276735)
-[01:41:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV joined the game
-[01:42:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:42:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:43:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV was executed by PeruFreeFire2008
-[01:46:58] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[01:46:58] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,tlauncher_custom_cape_skin@1.4,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2860,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[01:47:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:47:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Kuarry321[/127.50.17.205:58363] logged in with entity id 23533 at (7.5, 70.0, 253.5)
-[01:47:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 joined the game
-[01:48:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:49:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV fell from a high place
-[01:51:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[01:52:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:52:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[01:53:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:53:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[01:53:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set the time to 1000]
-[01:53:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:54:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 has made the advancement [Monster Hunter]
-[01:55:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> T
-[01:55:49] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Kuarry321 moved wrongly!
-[01:55:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[01:56:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[01:56:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Survival Mode]
-[01:56:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 is bleeding...
-[01:56:36] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerWorkbench
-[01:56:36] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[01:56:36] [Server thread/INFO] [Quark ASM]: Located Method, patching...
-[01:56:36] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerWorkbench.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:56:36] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerWorkbench.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:56:36] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerWorkbench.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:56:36] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerWorkbench.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[01:56:36] [Server thread/INFO] [Quark ASM]: Patch result: true
-[01:57:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 has made the advancement [Stone Age]
-[02:00:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 has made the advancement [Getting an Upgrade]
-[02:00:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Creative Mode]
-[02:01:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV has made the advancement [Stone Age]
-[02:02:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Survival Mode]
-[02:02:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Creative Mode]
-[02:02:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Shopping Cart moved wrongly!
-[02:02:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Shopping Cart moved wrongly!
-[02:02:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Shopping Cart moved wrongly!
-[02:02:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Survival Mode]
-[02:03:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[02:06:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV has made the advancement [Getting an Upgrade]
-[02:07:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV has made the advancement [Acquire Hardware]
-[02:07:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[02:08:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 is bleeding...
-[02:09:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[02:09:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 was slain by Dweller
-[02:09:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Kuarry321 lost connection: Disconnected
-[02:09:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 left the game
-[02:09:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 was slain by Dweller
-[02:09:49] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[02:09:49] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,tlauncher_custom_cape_skin@1.4,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2860,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[02:09:50] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[02:09:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Kuarry321[/127.50.17.205:42773] logged in with entity id 56414 at (0.023459963290255903, 19.0, 204.51373997049654)
-[02:09:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 joined the game
-[02:10:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> 139
-[02:10:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> 67
-[02:10:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> 65
-[02:10:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> 139 68 65
-[02:11:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: PeruFreeFire2008 lost connection: Timed out
-[02:11:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 left the game
-[02:12:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> 139 68 65
-[02:14:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: SpykeMTV moved too quickly! -5.092873894908394,1.044812420399012,8.83786575659877
-[02:14:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 has made the advancement [Acquire Hardware]
-[02:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV has made the advancement [Isn't It Iron Pick]
-[02:14:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * Server nigga
-[02:15:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * Server hola soy el server y odio a los peruanos
-[02:15:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * Server eso esta bien XDDDD
-[02:17:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * Server seguramente el server se caiga el sv, por que cerre el host
-[02:17:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * Server pero no se
-[02:17:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * Server capaz no por que lo re-abri
-[02:17:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <SpykeMTV> pero porque te saliste joder
-[02:18:03] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[02:18:03] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,tlauncher_custom_cape_skin@1.4,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2859,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
-[02:18:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[02:18:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: PeruFreeFire2008[/127.140.57.228:44677] logged in with entity id 68317 at (12.300000011920922, 60.0, 208.05412130783537)
-[02:18:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 joined the game
-[02:19:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Teleported PeruFreeFire2008 to SpykeMTV]
-[02:20:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 is bleeding...
-[02:21:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Set own game mode to Creative Mode]
-[02:30:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 has made the advancement [Appliance City]
-[02:34:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:34:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:36:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[02:37:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:38:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[02:39:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 is bleeding...
-[02:39:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:42:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Kuarry321 lost connection: Disconnected
-[02:42:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kuarry321 left the game
-[02:46:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:46:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:47:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:49:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:49:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: SpykeMTV is bleeding...
-[02:51:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PeruFreeFire2008: Opped SpykeMTV]
-[02:51:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [SpykeMTV: Set own game mode to Creative Mode]
-[02:52:44] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Golf Cart moved wrongly!
-[02:52:45] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Golf Cart moved wrongly!
-[02:52:45] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Golf Cart moved wrongly!
-[02:52:45] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Golf Cart moved wrongly!
-[02:57:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: PeruFreeFire2008 lost connection: Disconnected
-[02:57:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 left the game
-[03:07:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: SpykeMTV moved too quickly! -4.576448457530532,0.0,9.023107974992612
+[18:42:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:42:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:42:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:42:39] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[18:42:39] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[18:42:39] [main/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
+[18:42:39] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.10.jar
+[18:42:39] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:42:40] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:42:40] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[18:42:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:42:40] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:42:40] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[18:42:40] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[18:42:40] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[18:42:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:42:40] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[18:42:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:42:40] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[18:42:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:42:40] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[18:42:40] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/DownCraft/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.10.jar Service=LaunchWrapper Env=SERVER
+[18:42:40] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
+[18:42:40] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[18:42:40] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:42:40] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[18:42:40] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:42:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:42:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:42:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:42:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:42] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[18:42:42] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4525d1d3
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:42:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:42:43] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:42:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:42:43] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:42:43] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
+[18:42:43] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[18:42:43] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[18:42:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[18:42:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[18:42:43] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:43] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[18:42:43] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:43] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:43] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
+[18:42:43] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[18:42:43] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[18:42:43] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[18:42:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[18:42:43] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:43] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:43] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[18:42:43] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:43] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:44] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[18:42:44] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[18:42:44] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[18:42:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[18:42:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[18:42:44] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:44] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:44] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:44] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[18:42:44] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[18:42:44] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:44] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:44] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:42:44] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[18:42:44] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[18:42:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[18:42:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[18:42:44] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:44] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:42:44] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[18:42:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[18:42:44] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:44] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:44] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[18:42:44] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[18:42:44] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:44] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[18:42:44] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[18:42:45] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:45] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[18:42:45] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:46] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[18:42:46] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[18:42:46] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:46] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:42:46] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[18:42:46] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:46] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[18:42:46] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[18:42:46] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:46] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[18:42:46] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:46] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[18:42:46] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[18:42:46] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:46] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[18:42:46] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:46] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[18:42:46] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[18:42:46] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:46] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[18:42:46] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:47] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[18:42:47] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[18:42:47] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[18:42:47] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:47] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:47] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:47] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[18:42:47] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:47] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[18:42:47] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:47] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:47] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[18:42:47] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[18:42:47] [main/INFO] [Quark ASM]: Failed to locate the method!
+[18:42:47] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[18:42:47] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[18:42:47] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:47] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:47] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[18:42:47] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[18:42:47] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:47] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[18:42:47] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:49] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[18:42:49] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[18:42:49] [main/INFO] [Quark ASM]: Located Method, patching...
+[18:42:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:42:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:42:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:42:49] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[18:42:49] [main/INFO] [Quark ASM]: Patch result: true
+[18:42:49] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
+[18:42:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[18:42:49] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[18:42:49] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:42:49] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:42:49] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:42:49] [Server thread/INFO] [FML]: Searching /workspaces/DownCraft/servidor_minecraft/./mods for mods
+[18:42:50] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.10
+[18:42:51] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[18:42:51] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[18:42:52] [Server thread/INFO] [FML]: Forge Mod Loader has identified 41 mods to load
+[18:42:52] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[18:42:52] [Server thread/WARN] [FML]: Missing English translation for libraryex: assets/libraryex/lang/en_us.lang
+[18:42:52] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[18:42:52] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:42:52] [Server thread/INFO] [FML]: FML has found a non-mod file core-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:42:52] [Server thread/INFO] [FML]: FML has found a non-mod file json-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[18:42:52] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at CLIENT
+[18:42:52] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, xaerominimap_core, obfuscate, securitycraft, advancedrifles, autoreglib, biomesoplenty, camera, carryon, casinocraft, chisel, cjcm, creativecore, drugmod, cfm, geckolib3, gravestone, cgm, ironchest, jei, libraryex, malisiscore, malisisdoors, mantle, mowziesmobs, netherex, playerrevive, quark, signpost, tconstruct, vehicle, gvc, wawla, wearablebackpacks, xaerominimap, xlfoodmod, llibrary] at SERVER
+[18:42:53] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[18:42:53] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[18:42:53] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[18:42:53] [Server thread/INFO] [Quark ASM]: Patch result: true
+[18:42:53] [Server thread/ERROR] [FML]: The mod carryon is expecting signature fd21553434f4905f2f73ea7838147ac4ea07bd88 for source carryon-1.12.2-1.12.7.23.jar, however there is no signature matching that description
+[18:42:55] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[18:42:55] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[18:42:55] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[18:42:55] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[18:42:55] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[18:42:55] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:42:55] [Server thread/INFO] [FML]: Found 1761 ObjectHolder annotations
+[18:42:55] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:42:55] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:42:55] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
+[18:42:55] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:42:55] [Forge Version Check/INFO] [forge.VersionCheck]: [carryon] Starting version check at https://gist.githubusercontent.com/Tschipp/dccadee7c90d7a34e6e76a35d9d6fa2e/raw/
+[18:42:55] [Server thread/INFO] [Obfuscate]: Successfully injected SyncedPlayerData capability
+[18:42:56] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
+[18:42:57] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
+[18:42:57] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [camera] Found status: UP_TO_DATE Target: null
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:42:58] [Server thread/INFO] [Quark]: 'Double doors open together' is forcefully disabled as it's incompatible with the following loaded mods: [malisisdoors]
+[18:42:58] [Server thread/INFO] [Quark]: Module client is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module management is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module world is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module vanity is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module decoration is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module experimental is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module tweaks is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module building is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module misc is enabled
+[18:42:58] [Server thread/INFO] [Quark]: Module automation is enabled
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/master/update.json
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Found status: UP_TO_DATE Target: null
+[18:42:58] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[18:42:59] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: UP_TO_DATE Target: null
+[18:42:59] [Forge Version Check/INFO] [forge.VersionCheck]: [gravestone] Starting version check at http://maxhenkel.de/update/gravestone.json
+[18:43:03] [Server thread/INFO] [STDOUT]: [mod.casinocraft.CasinoKeeper:loadConfig:222]: Config loaded
+[18:43:03] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:03] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
+[18:43:04] [Server thread/INFO] [malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `customdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `saloondoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `verticalhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `garagedoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `door3x3`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bigdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rustyhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doorfactorytileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `forcefieldtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:04] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fencegatetileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:05] [Server thread/WARN] [WAWLA]: No info engine detected! No info will be displayed!
+[18:43:05] [Server thread/INFO] [Chisel]: Loading blocks...
+[18:43:05] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[18:43:05] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[18:43:05] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[18:43:06] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
+[18:43:06] [Server thread/INFO] [Chisel]: Loading Tile Entities...
+[18:43:06] [Server thread/INFO] [Chisel]: Tile Entities loaded.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitygavestone`, expected `gravestone`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:06] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:07] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:07] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:07] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:07] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:07] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:07] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:07] [Server thread/INFO] [Chisel]: Loading items...
+[18:43:07] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[18:43:07] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[18:43:07] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[18:43:07] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
+[18:43:07] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:07] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:07] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:07] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:07] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:07] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:07] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:43:07] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:43:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:43:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:43:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[18:43:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[18:43:07] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[18:43:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:43:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[18:43:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:43:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:43:08] [Server thread/INFO] [Chisel]: Loading recipes...
+[18:43:08] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[18:43:08] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[18:43:08] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[18:43:08] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
+[18:43:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:08] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:08] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:09] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.dyePowder@3 = 4xitem.food_chocolate_chip@0
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[18:43:09] [Server thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[18:43:09] [Server thread/INFO] [Quark ASM]: Located Method, patching...
+[18:43:09] [Server thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[18:43:09] [Server thread/INFO] [Quark ASM]: Patch result: true
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbasetile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `signpostbigposttile`, expected `signpost`. This could be a intended override, but in most cases indicates a broken mod.
+[18:43:09] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:43:09] [Server thread/INFO] [Chisel]: Received 18 IMC messages from mod quark.
+[18:43:09] [Server thread/INFO] [Chisel]: Received 14 IMC messages from mod netherex.
+[18:43:09] [Server thread/INFO] [Chisel]: Received 22 IMC messages from mod tconstruct.
+[18:43:09] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:43:09] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:09] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[18:43:10] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[18:43:11] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1241.601837 ms
+[18:43:11] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18:43:11] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 41 mods
+[18:43:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:43:11] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[18:43:13] [Server thread/INFO] [FML]: Applying holder lookups
+[18:43:13] [Server thread/INFO] [FML]: Holder lookups applied
+[18:43:13] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@25ebfb90)
+[18:43:13] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 760 advancements
+[18:43:13] [Server thread/INFO] [NetherEx]: Reading biome configs.
+[18:43:13] [Server thread/INFO] [NetherEx]: Reading Pigtificate trade configs.
+[18:43:13] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@25ebfb90)
+[18:43:13] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[18:43:13] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@25ebfb90)
+[18:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:43:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%
+[18:43:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.961s)! For help, type "help" or "?"
+[18:43:16] [Server thread/INFO] [NetherEx]: The Nether has been overridden.
+[18:43:16] [net.gliby.voicechat.common.networking.voiceservers.udp.UdpServer/INFO] [Voice Chat Mod]: UDP Server established on port 7770
+[18:43:16] [Voice Server Process/INFO] [Voice Chat Mod]: Started [UDP] Server.
+[18:43:16] [net.gliby.voicechat.common.networking.voiceservers.udp.UdpServer/INFO] [Voice Chat Mod]: UDP Server receive buffer size (bytes): 65536
+[18:43:16] [net.gliby.voicechat.common.networking.voiceservers.udp.UdpServer/INFO] [Voice Chat Mod]: UDP Server listening...
+[18:43:16] [Server thread/INFO] [FML]: Unloading dimension 1
+[18:43:16] [Server thread/INFO] [FML]: Unloading dimension -1
+[18:47:52] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
+[18:47:52] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[18:47:52] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 43 mods : minecraft@1.12.2,advancedrifles@0.6.0,tconstruct@1.12.2-2.13.0.183,malisiscore@1.12.2-6.5.1-SNAPSHOT,mowziesmobs@1.5.8,signpost@1.08.5,cgm@0.15.3,biomesoplenty@7.0.1.2445,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,vehicle@0.44.1,casinocraft@v11,gvc@1.2.5,wawla@2.6.275,quark@r1.6-179,mantle@1.12-1.3.3.55,xaerominimap@25.2.10,mcp@9.42,gravestone@1.10.3,camera@1.0.10,ctm@MC1.12.2-1.0.2.31,securitycraft@v1.10,autoreglib@1.3-32,libraryex@1.2.2,FML@8.0.99.99,obfuscate@0.4.2,llibrary@1.7.20,cfm@6.3.0,chisel@MC1.12.2-1.0.2.45,xaerominimap_core@1.12.2-1.0,tlauncher_custom_cape_skin@1.4,carryon@1.12.3,xlfoodmod@1.12.2-1.9.2,forge@14.23.5.2859,malisisdoors@1.12.2-7.3.0,drugmod@1.8,geckolib3@3.0.30,netherex@2.2.5,playerrevive@1.0,wearablebackpacks@3.1.4,ironchest@1.12.2-7.0.67.844,cjcm@1.0
+[18:47:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:47:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: PeruFreeFire2008[/127.140.57.228:56853] logged in with entity id 438 at (125.31693544786638, 68.0, 65.89891217683163)
+[18:47:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 joined the game
+[18:49:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: PeruFreeFire2008 lost connection: Disconnected
+[18:49:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: PeruFreeFire2008 left the game
